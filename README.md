@@ -2,7 +2,7 @@
 
 The goal of this test is to impress LINKIT, asses yourself and open a path to a clear and concise technical interview.
 
-We expect you to not spend more than 8 hours on this test, so be advised to timeline and be direct on the parts you had issues and justify. Remember, you already went through our screening and first interview; this is the beginning and preparation for a mutual technical conversation.
+Remember, you already went through our screening and first interview; this is the beginning and preparation for a mutual technical conversation.
 
 ## Hortonworks Data Platform Sandbox
 
@@ -15,23 +15,23 @@ Explain you steps and impression in `MyExperience.md`.
 
 ## Basic HDFS & Hive on Spark
 
-Build a Spark application and execute on Sandbox to do the following:
+Build a Scala application using Spark and execute against the Sandbox Hive & SPark to do the following:
 - upload the `.csv` files on <a href="data-spark/">`data-spark`</a> to HDFS
 - create tables on Hive for each `.csv` file
 - output a dataframe on Spark that contains `DRIVERID, NAME, HOURS_LOGGED, MILES_LOGGED` so you can have aggregated information about the driver.
 
-Remember, do this on the Spark application or hack your way around it with scripts that can be automated. Besides the code on a repo, explain you steps and impression in <a href="`MyExperience.md">`MyExperience.md`</a>.
+Besides the code on a repo, explain you steps and impression in <a href="`MyExperience.md">`MyExperience.md`</a>.
 
 ## HBase
 
-Build an application that: 
+Extend the Scala application above so that it can: 
 - create a table `dangerous_driving` on HBase
 - load <a href="data-hbase/dangerous-driver.csv">`dangerous-driver.csv`</a>
 - add a 4th element to the table from `extra-driver.csv`
 - Update `id = 4` to display `routeName` as `Los Angeles to Santa Clara` instead of `Santa Clara to San Diego`
 - Outputs to console the Name of the driver, the type of event and the event Time if the origin or destination is `Los Angeles`.
 
-Remember, do this on the Spark application or hack your way around it with scripts that can be automated. Besides the code on a repo, explain you steps and impression in <a href="`MyExperience.md">`MyExperience.md`</a>.
+Same thing here, besides the code on a repo, explain you steps and impression in <a href="`MyExperience.md">`MyExperience.md`</a>.
 
 ## Kafka Ingestion
 
@@ -44,5 +44,5 @@ Ingest the Kafka stream as a real stream into HBase w
 
 ## Doubts &/Or Submission
 
-Fork or Clone this repository and work on your own prefered git tool. In the end, commit and push your solution and send us the link.
+Clone this repository to start working on your own prefered git tool. In the end, commit and push your solution and send us the link.
 <br> Feel free to reach out to [Thiago de Faria](mailto:thiago.de.faria@linkit.nl).
