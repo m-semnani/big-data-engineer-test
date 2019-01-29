@@ -40,7 +40,7 @@ Setup a single Kafka cluster on Docker and create a simple stream with any infor
 <br> I expect you to have issues on the connectivity and make it work here, so do not worry... put your learnings and explain your steps in <a href="`MyExperience.md">`MyExperience.md`</a>.
 
 ## Extra Points
-Ingest the Kafka stream as a real stream into HBase w
+Ingest the Kafka stream as a real stream into HBase.
 
 ## Doubts &/Or Submission
 
