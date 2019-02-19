@@ -1,0 +1,2 @@
+eventId,driverId,driverName,eventTime,eventType,latitudeColumn,longitudeColumn,routeId,routeName,truckId
+1,78,Carl,2016-09-23 03:25:03.567,Normal,37.484938,-119.966284,845,Santa Clara to San Diego,637
